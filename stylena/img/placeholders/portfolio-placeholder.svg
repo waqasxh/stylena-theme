@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <rect width="500" height="700" fill="#7f7e7c"/>
+  <rect x="150" y="230" width="200" height="150" rx="6" fill="none" stroke="#bc9c25" stroke-width="3" opacity="0.7"/>
+  <circle cx="195" cy="270" r="14" fill="#bc9c25" opacity="0.7"/>
+  <path d="M150 355l55-55 40 40 35-35 70 70" fill="none" stroke="#bc9c25" stroke-width="3" opacity="0.7"/>
+  <text x="250" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#fefefe" opacity="0.85">Portfolio Image Placeholder</text>
+</svg>

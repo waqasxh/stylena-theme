@@ -1,0 +1,86 @@
+Stylena Theme — End User Quick Guide
+
+
+0) Required plugin: Stylena Core
+- Services, Team, Portfolio, FAQ and Image Slider content types come from the Stylena Core plugin.
+- After activating the theme, use the notice in the admin to go to Plugins and activate it (or upload the stylena-core folder to wp-content/plugins and activate it).
+- Without it those sections are empty; your content is never deleted and returns when the plugin is active.
+
+1) Google Places (Reviews) API
+- Where: Appearance > Customize > Stylena Theme Options > Reviews Section
+- What you need:
+  - Google Cloud project with Places API enabled
+  - API Key (keep secret); stored outside theme settings (not exported). Optionally define STYLENA_GOOGLE_PLACES_KEY in wp-config.php
+  - Your Place ID (use Google's Place ID Finder)
+- Settings to fill in Customizer: tick "Allow contact with Google (Places API)", then Google API Key, Google Place ID, Number of reviews to show
+- Notes:
+  - The opt-in is off by default. Until you tick it, the theme sends nothing to Google and shows only the fallback reviews.
+  - If API is empty or fails, the theme shows manually-entered fallback reviews.
+  - The theme caches responses (~12 hours) to reduce API calls.
+  - Troubleshooting: if reviews don't appear, check API key, Place ID, billing on Google Cloud, and server outbound HTTPS access.
+
+2) Gutenberg / Block Editor
+- Theme support: this theme adds block editor support including:
+  - wide alignment, editor-styles, wp-block-styles, responsive-embeds
+  - Bootstrap styles are added into the editor for a better WYSIWYG experience
+- How to use:
+  - Use Custom HTML blocks for brand showcase or quick embeds
+  - Use the Code Editor when pasting preformatted markup
+  - The front-page and components support output from Gutenberg blocks via `.gutenberg-content-section`
+- Quick tip: Enable featured images in posts/pages; the theme prefers Gutenberg featured images where applicable.
+
+Gutenberg templates/snippets included:
+- Contact Us page: the demo import creates one (activation creates nothing), or assign the "Contact Us (Full Width)" page template to any page.
+- Membership page: the demo import creates one (activation creates nothing), or assign the "Membership (Full Width)" page template to any page.
+- Our Brands (front-page): this section is part of the front page template and is edited through the Customizer.
+
+3) Image sizes & aspect ratios
+- Registered image sizes (important names for theme functions):
+  - stylena-hero: 1920×1080 (crop)
+  - stylena-service: 500×700 (crop) — recommended aspect ratio 5:7
+  - stylena-team: 400×600 (crop) — portrait (2:3) style
+- Best practice:
+  - For services and portfolio: crop/resize uploads to 5:7 (e.g., 500×700) to avoid layout cropping issues
+  - For hero/video: use 1920×1080 MP4 (H.264), keep file size under ~10MB if possible
+- Regenerating thumbnails: if you change image sizes or add new images, run a thumbnail regenerator plugin (e.g., Regenerate Thumbnails).
+
+4) Header & Contact Links
+- Book button: Controlled via Customizer (Stylena Theme Options > Header); you can toggle "Open in new tab" behavior
+- WhatsApp & Telephone links: set via Customizer in Header section (links and visible text)
+- Mobile behavior: header icons are adjusted/hid at responsive breakpoints in `css/responsive.css`
+
+5) Search (AJAX live search)
+- Components:
+  - Backend AJAX handler: `ajax-search.php`
+  - Frontend JS: `js/live-search.js`
+  - Styles: `css/live-search.css`
+- Features: live results, mega-dropdown, keyboard support, nonce-secured AJAX
+- Troubleshooting: if search returns nothing, ensure WordPress AJAX (admin-ajax.php) is reachable and that there are posts/pages to search.
+
+6) Quick Customizer Paths (where to change things)
+- Appearance > Customize > Stylena Theme Options
+  - Header: logo, contact links, book button
+  - Homepage: hero text, video settings, which sections are visible
+  - Reviews: Google opt-in, API key, Place ID, number of reviews
+  - Team / Services: toggles for sections and display order
+
+7) Developer hints (for site managers)
+- Where core features live:
+  - Theme bootstrap/class loader: `inc/classes/Stylena.php`
+  - Theme functions & image sizes: `inc/functions/stylena-functions.php`
+  - Theme customizer definitions: `inc/functions/theme-customizer.php`
+- If you need to modify image sizes or add new theme_support flags, edit `inc/functions/stylena-functions.php` or `inc/classes/Stylena.php` respectively.
+
+8) Support & Troubleshooting
+- Caching & performance: the theme caches Google Reviews; plugin or server caching may affect previews in Customizer
+- PHP/Server errors: check `debug.log` and web server error logs for messages (the theme logs Google API errors with `error_log`)
+- Contact: refer to theme vendor/support channel provided when you purchased the theme
+
+9) Portfolio
+- Where: Portfolio Items in the admin menu (provided by the Stylena Core plugin) and Appearance > Customize > Portfolio (display options)
+- What it does:
+  - Shows your Portfolio Items on the "Portfolio (Full - Width)" page with optional category filters, Load More and a lightbox
+  - Responsive grid: 3 columns desktop, 2 tablet, 1 mobile
+- Image notes: the grid prefers images cropped to 500×700 (5:7) to match service cards.
+- Full guide: docs/portfolio.md
+

@@ -1,0 +1,120 @@
+= Stylena Changelog =
+
+== 1.3.0 - October 2026 ==
+* New: Reviews section shows generic sample cards (with an admin-only notice) when no Site Reviews, Google or custom reviews exist.
+* Change: Author and vendor details updated (Zylonex, zylonex.com); credits, AI-generated media disclosure (docs/ai-disclosure.md), licence page and draft support and refund policies added to the documentation.
+* Change: Sample review cards carry a visible "Sample review" label.
+* Change: Demo team members and the founder now use clearly generic sample names.
+* Change: The demo import files are no longer inside the theme zip; they ship as a separate download (extract to wp-content/uploads/stylena-demo/).
+* Change: Header and mobile search forms are now output through get_search_form() (searchform.php variants); markup and classes are unchanged.
+* Change: Coding-standards cleanup: template variables are prefixed with stylena_, and class methods now use snake_case (for example displayComments is now display_comments). Child themes that override or call the old camelCase methods or StylenaDesign methods must update the names.
+* Change: Mobile menu open/close buttons no longer use inline onclick handlers (works under a strict Content-Security-Policy).
+* Fix: Home sliders (Services, Team, Portfolio) now fit exactly 3 cards on desktop, 2 on tablet and 1 on phone, and re-fit when the window is resized or rotated.
+* Fix: Home sliders and arrows now work in right-to-left languages.
+* Change: The home page Portfolio is now a slider (3 items on desktop, 2 on tablet, 1 on phone) with previous/next buttons like Services and Team; it moved below the image slider, above Reviews and Need Advice.
+* New: View All buttons under the Services, Team and Portfolio sections (they appear when the matching page exists).
+* Change: The footer phone link is centred under the WhatsApp button.
+* New: Pause/play button for the hero background video (WCAG 2.2.2).
+* Change: The Google API key field in the Customizer is now a masked password field.
+* Change: The Google Places API key now lives in a non-autoloaded option (DB version 4; existing keys are migrated automatically and removed from theme mods, so they no longer appear in Customizer exports). Define STYLENA_GOOGLE_PLACES_KEY in wp-config.php to override it. Rotate the key if it was ever exported.
+* Change: Removed the upload-limit admin notice, debug comments, the unused hero pause/play button styles and the unused brands.css; theme assets now load through get_theme_file_uri() (child-theme friendly).
+* Change: The hero background video is skipped (poster only) on Save-Data and 2g connections; the poster is applied via CSS instead of inline styles.
+* New: Reviews section uses the Site Reviews plugin when it is active (Customize > Reviews Section > Use the Site Reviews plugin), shared by the home page and the Reviews page template; the built-in Google/custom cards remain the fallback. See docs/reviews.md.
+* New: Portfolio feature: responsive grid with Load More, accessible lightbox (Esc, arrows, focus trap), category filter buttons, Portfolio Categories taxonomy, and a home page Portfolio section. Customizer keys: stylena_home_portfolio_enable/_title/_subtitle/_count, stylena_portfolio_lightbox, stylena_portfolio_show_filters, stylena_portfolio_posts_count.
+* Change: The home anchor #portfolio now reaches the new Portfolio section; the Team section is #team. Update any old menu links that pointed to #portfolio expecting Team.
+* Change: The Instagram feed/API integration was removed (no Instagram token, opt-in or Appearance > Instagram Feed screen). The Portfolio now shows your own Portfolio Items; plain Instagram profile links in the footer remain. Items per load: Customize > Portfolio.
+* Change: Minimum requirements raised to PHP 8.1 and WordPress 6.8 (theme and Stylena Core), required by the recommended Site Reviews plugin.
+* New: Site Reviews added to the recommended plugins on Appearance > Install Plugins (TGMPA); optional.
+* Fix: Slider left margin no longer shows a blank gap (left buffer slides are prepended).
+* Change: Header offset and hero background video handling refined.
+* New: Two extra demo variants in the import picker, Light Minimal and Warm Rose (Customizer-only style variants that reuse the default demo content; no duplicate content on a second import).
+* New: Optional basic WooCommerce compatibility (theme support, layout wrapper, stylesheet) and basic booking plugin styling (Bookly, Amelia, SSA, Easy Appointments, LatePoint, Calendly); both load nothing unless the plugin is active. See docs/integrations.md.
+* New: Yoast SEO added to the optional recommended plugins on Appearance > Install Plugins (Contact Form 7 and One Click Demo Import were already listed). It is not installed by the demo import.
+* New: Demo import now also sets a hero background video (24 s looping animation made from the AI hero image, downloaded from the demo server like the images; not in the theme download).
+* Change: Post-format badge images replaced with original SVG icons (previous PNGs had unknown provenance); theme screenshot.png replaced with a fresh 1200x900 capture of the demo.
+* New: Demo import shows a notice when sample images could not be downloaded and can use more than one media host (stylena_demo_assets_base_urls filter).
+* Change: Translation template regenerated.
+* Change: AI-generated demo images are no longer bundled in the theme download (smaller package, marketplace rule); the demo import downloads them from the demo server and falls back to the neutral placeholders when offline.
+* Fix: Demo import only touches content it created (a site owner's own posts, pages and forms with the same titles are never modified); the Home demo page no longer carries placeholder text.
+* New: README section "AI-Generated Demo Media" disclosing that the sample photos are AI-generated.
+* Change: Montserrat is the default theme font again (reverted from Exo); Exo, Aboreto and the other Customizer font choices remain available. All fonts bundled are self-hosted, SIL OFL 1.1. Sites that never saved a font choice will see Montserrat after updating; saved choices are unchanged.
+* Fix: Slider slide text is now readable on bright photos (darker bottom-weighted overlay).
+* Fix: Image slider slides without a featured image now get a neutral backdrop instead of an empty, unreadable slide.
+* New: Demo import now sets AI-generated demo images (founder, hero poster, advice, FAQ); theme defaults stay neutral placeholders. Provenance in demo/README.txt.
+* Fix: JavaScript errors ("wp is not defined", wp.hooks / wp.i18n undefined) caused by deferring WordPress core wp-* scripts out of order.
+* Change: Services, Team, Portfolio, FAQ and Image Slider post types, the Service Category taxonomy, the [stylena_slider] shortcode and related widgets moved to the required companion plugin Stylena Core (plugins/stylena-core). Existing sites: install and activate Stylena Core after updating; content is kept in the database.
+* Change: Theme licence changed to GPL-2.0-or-later.
+* Fix: Accessibility improvements (keyboard, focus, ARIA and contrast fixes).
+* New: RTL stylesheet support.
+* Fix: Escaping and internationalisation sweep across templates and functions (late escaping, text domain, translatable strings).
+* Security: Instagram integration hardening (admin-only writes with nonce checks, no secrets in source).
+* Change: Homepage hero video now loads lazily.
+* Change: Demo and default copy is generic; no client-specific names, contacts or reviews.
+* Security: Instagram OAuth, token-save, token-validate, OAuth-URL and auth-status AJAX handlers are now admin-only (manage_options + nonce); the only nopriv handler left is live search.
+* Change: The theme no longer contains or uses any Instagram app ID or secret. The STYLENA_INSTAGRAM_APP_ID / STYLENA_INSTAGRAM_APP_SECRET constants and the stylena_instagram_app_credentials filter do not exist; you paste your own token instead.
+* Security: Instagram tokens are stored in non-autoloaded options (never in the Customizer), the token is sent only in an Authorization header, and the public "load more" AJAX handler was replaced by a client-side reveal.
+* New: Opt-in settings "Allow contact with Instagram (Meta)" and "Allow contact with Google (Places API)" in the Customizer, off by default. Nothing is requested from Instagram, Meta or Google until the site owner ticks them.
+* BREAKING CHANGE: The Instagram feed was rebuilt and must be reconnected. After updating, open Appearance > Instagram Feed and paste a new long-lived token from your own Meta app (Instagram API with Instagram login; Business or Creator account). The seven old Instagram theme settings (access token, connection status, account ID, username, user ID, client ID, redirect URI) are removed; an old token is kept only to show "Needs reconnect" and does not work with the new API. Because both new opt-ins default to off, Instagram posts and Google Reviews stop fetching after the update until you tick the opt-ins in the Customizer (Google Reviews then falls back to your manual reviews). Use "Disconnect and delete data" on the Instagram Feed screen to remove stored data; themes have no uninstall hook.
+* Remove: error-suppression.php, runtime ini_set upload/memory overrides, wp-stubs.php, the unused stylena_test_google_api() helper and three orphan HTML files.
+* Fix: live-search input validation, prepared SQL for transient cleanup, term-meta capability check, advice image default, text domain in comments.php.
+
+== 1.2.7 - September 2026 ==
+* New: Added full-width, decorated page templates for About Us, Contact Us, Reviews, and Membership (page-about-fullwidth.php, page-contact-fullwidth.php, page-reviews-fullwidth.php, page-membership-fullwidth.php) - these pages previously fell back to the default page.php template with a widget sidebar (Search/Recent Posts/Recent Comments) instead of the theme's actual design, because nothing in the theme created or assigned templates to them
+* Change: Removed the activation-time page seeder (stylena_create_sample_pages); demo pages and content now come from the demo importer (Appearance > Import Demo Data).
+* Fix: The `service` custom post type registered has_archive=>true with the same rewrite slug ("services") as the theme's own Services page, so the CPT's raw default archive silently intercepted /services/ before the page ever loaded. Disabled the archive (single-service permalinks are unaffected) so the curated, full-width Services page now actually renders at its own URL
+* Change: contact-us_page.html and membership_page.html (previously orphaned static HTML files with no way to reach a live page) are now seeded directly as the content of their respective pages
+
+== 1.2.6 - September 2026 ==
+* Fix: Added the missing direct-access guard (`if (!defined('ABSPATH')) exit;`) to the 16 PHP files that still lacked one - inc/classes/Autoload.php, Stylena.php, StylenaDesign.php, StylenaPerformance.php, StylenaUtilities.php, StylenaWalkerNavMenu.php, Hooks/StylenaHooks.php, Hooks/WidgetHooks.php, Widgets/AutoRegisterWidgets.php, Widgets/ServiceCategoriesWidget.php, inc/functions/error-suppression.php, include-functions.php, inc/widgets/ServiceCategoriesWidget.php, template-parts/content.php, instagram-auth-modal.php, section-no-results.php - every shippable PHP file in the theme now rejects direct access
+
+== 1.2.5 - September 2026 ==
+* Fix: Theme manifest (style.css header) and README still advertised "video background" as a default, always-on feature after 1.2.4 made it optional and off by default - updated the description and feature list to match actual behavior
+* Fix: Synced languages/stylena.pot with the corrected style.css Description string
+
+== 1.2.4 - September 2026 ==
+* Fix: Removed img/hero-video.mp4 (the real client's video, could not be legally redistributed) - the theme no longer ships any default hero video
+* New: Added real Customizer controls for Hero Video and Hero Poster Image (Appearance > Customize > Hero Section) - previously the theme read theme_mod values that no control ever set, so the only documented way to change the hero video was manually replacing a template file over FTP
+* Change: Homepage hero now shows only the poster image by default until a video is uploaded via the Customizer
+
+== 1.2.3 - September 2026 ==
+* Fix: Removed fonts/SoageRegular.ttf (no license file, unverifiable redistribution rights) and replaced the "Soage" Customizer typography option with the properly licensed Google Font "Cormorant Garamond"
+* New: Added build-package.ps1, a packaging script that stages a clean copy of the theme (excluding .vs/.vscode/node_modules, lint config, and internal dev notes) and zips it for marketplace submission
+
+== 1.2.2 - September 2026 ==
+* Fix: Text domain mismatch ('Stylena' vs 'stylena') across 12 files that silently broke translations
+* Fix: Unescaped get_template_directory_uri() output in header.php image tags
+* Fix: Malformed translatable string in the slider admin notice that also confused text-domain detection
+* Fix: Missing text domain on two wp_die() calls
+* Fix: Removed "Stocks" from the fallback navigation menu - a client-specific leftover with no corresponding CPT, template, or feature
+* Change: Added Theme URI to style.css header, removed invalid 'video-header' tag, added recommended .bypostauthor CSS class
+
+== 1.2.1 - September 2026 ==
+* New: Service detail pages (single-service.php) with price, duration, benefits, description, booking CTA, and related services
+* New: Automatic demo content - 35 sample services and 6 sample portfolio items created on first activation
+* New: Placeholder media for founder photo, hero poster, consultation image, service images, and portfolio images
+* Fix: Removed a filter that stripped the cache-busting ?ver= query string from every enqueued asset, breaking cache invalidation on theme updates
+* Fix: Several WCAG contrast failures across hero text, section headings, and service card overlays
+* Fix: JavaScript error thrown by the WordPress core translation bootstrap on every page load
+* Fix: Console error thrown by the Instagram integration script on every non-Portfolio page
+* Fix: Heading order and missing accessible names flagged by an accessibility audit
+* Fix: Layout shift (CLS) on recurring images via explicit aspect-ratio
+* Fix: Service "Reserve Now" links defaulting to a dead # instead of the service's own detail page
+* Fix: Removed real client contact information hardcoded as product defaults
+* Change: Requires PHP raised from 5.5 to 7.4
+* Change: Portfolio page shows manual portfolio items by default instead of requiring Instagram configuration first
+
+== 1.1.0 - August 2025 ==
+* New: Enhanced WordPress Customizer integration
+* New: Smart color override system that preserves original design
+* New: Native WordPress logo support with intelligent fallbacks
+* New: Advanced typography options (12+ Google Fonts)
+* New: Header and footer color customization
+* Improvement: Non-destructive customization with easy reversion to defaults
+* Improvement: Optimized CSS and JavaScript loading
+* Fix: Customizer preview inconsistencies
+* Fix: Font loading issues
+* Fix: Mobile navigation behavior
+* Fix: Logo display edge cases
+
+== 1.0.0 ==
+* Initial release

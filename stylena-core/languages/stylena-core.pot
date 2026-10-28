@@ -1,0 +1,687 @@
+# Copyright (C) 2026 Zylonex
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stylena Core 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stylena-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-28T12:47:12+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: stylena-core\n"
+
+#. Plugin Name of the plugin
+#: stylena-core.php
+msgid "Stylena Core"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: stylena-core.php
+msgid "https://stylena.zylonex.com"
+msgstr ""
+
+#. Description of the plugin
+#: stylena-core.php
+msgid "Companion plugin for the Stylena theme. Registers the Services, Team, Portfolio, FAQ and Image Slider content types and the Service Category taxonomy."
+msgstr ""
+
+#. Author of the plugin
+#: stylena-core.php
+msgid "Zylonex"
+msgstr ""
+
+#. Author URI of the plugin
+#: stylena-core.php
+msgid "https://zylonex.com"
+msgstr ""
+
+#: src/Admin/Assets.php:55
+#: src/Admin/MetaBoxes/Base.php:265
+msgid "Select Image"
+msgstr ""
+
+#: src/Admin/Assets.php:56
+msgid "Use this image"
+msgstr ""
+
+#: src/Admin/Columns.php:76
+#: src/Admin/MetaBoxes/Base.php:290
+#: src/Admin/TermMeta.php:45
+#: src/Admin/TermMeta.php:63
+#: src/Admin/TermMeta.php:101
+msgid "Sort Order"
+msgstr ""
+
+#: src/Admin/Columns.php:86
+#: src/Admin/MetaBoxes/Service.php:56
+msgid "Price"
+msgstr ""
+
+#: src/Admin/Columns.php:119
+msgid "No price set"
+msgstr ""
+
+#: src/Admin/Columns.php:164
+msgid "Display in Footer"
+msgstr ""
+
+#: src/Admin/Columns.php:165
+#: src/Admin/Columns.php:198
+msgid "Order"
+msgstr ""
+
+#: src/Admin/Columns.php:178
+#: src/Admin/MetaBoxes/Service.php:61
+msgid "Yes"
+msgstr ""
+
+#: src/Admin/Columns.php:178
+msgid "No"
+msgstr ""
+
+#: src/Admin/Columns.php:195
+msgid "Image"
+msgstr ""
+
+#: src/Admin/Columns.php:196
+msgid "Title"
+msgstr ""
+
+#: src/Admin/Columns.php:197
+#: src/Admin/MetaBoxes/Slider.php:53
+msgid "Subtitle"
+msgstr ""
+
+#: src/Admin/Columns.php:217
+msgid "No image"
+msgstr ""
+
+#: src/Admin/Columns.php:224
+msgid "No subtitle"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Base.php:266
+msgid "Remove Image"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Base.php:292
+msgid "Lower numbers display first"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Faq.php:43
+msgid "FAQ Display Settings"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Faq.php:63
+msgid "Display this FAQ in footer section"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Portfolio.php:43
+msgid "Portfolio Item Details"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Portfolio.php:56
+msgid "Portfolio Image"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Portfolio.php:59
+msgid "Instagram Post Link"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Portfolio.php:61
+msgid "External Link"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:43
+msgid "Service Details"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:57
+msgid "e.g., £145"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:58
+msgid "Duration"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:59
+msgid "e.g., 20 min"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:60
+msgid "Mark as New Service"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:62
+msgid "Custom Link (optional)"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:63
+msgid "Leave blank to link to this service's detail page"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:64
+msgid "Description"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:65
+msgid "Short description or summary"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:66
+msgid "Service Image"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:68
+msgid "Upload a custom image for this service (optional)"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:69
+msgid "Benefits (one per line)"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Service.php:70
+msgid "Enter benefits, one per line"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Slider.php:43
+msgid "Slider Item Settings"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Slider.php:55
+msgid "Enter a subtitle for this slider item."
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:43
+msgid "Team Member Details"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:56
+msgid "Position"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:58
+msgid "Bio/Description"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:59
+msgid "Enter team member bio/description..."
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:60
+msgid "Specialties"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:61
+msgid "Enter specialties, separated by commas..."
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:62
+msgid "Team Image"
+msgstr ""
+
+#: src/Admin/MetaBoxes/Team.php:64
+msgid "Upload a custom image for this team member (optional)"
+msgstr ""
+
+#: src/Admin/TermMeta.php:47
+#: src/Admin/TermMeta.php:66
+msgid "Numeric sort order for categories. Lower numbers display first."
+msgstr ""
+
+#: src/PostTypes/Faq.php:30
+msgctxt "Post type general name"
+msgid "FAQs"
+msgstr ""
+
+#: src/PostTypes/Faq.php:31
+msgctxt "Post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:32
+msgctxt "Admin Menu text"
+msgid "FAQs"
+msgstr ""
+
+#: src/PostTypes/Faq.php:33
+msgctxt "Add New on Toolbar"
+msgid "FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:34
+#: src/PostTypes/Slider.php:39
+msgid "Add New"
+msgstr ""
+
+#: src/PostTypes/Faq.php:35
+msgid "Add New FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:36
+msgid "New FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:37
+msgid "Edit FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:38
+msgid "View FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:39
+msgid "All FAQs"
+msgstr ""
+
+#: src/PostTypes/Faq.php:40
+msgid "Search FAQs"
+msgstr ""
+
+#: src/PostTypes/Faq.php:41
+msgid "Parent FAQs:"
+msgstr ""
+
+#: src/PostTypes/Faq.php:42
+msgid "No FAQs found."
+msgstr ""
+
+#: src/PostTypes/Faq.php:43
+msgid "No FAQs found in Trash."
+msgstr ""
+
+#: src/PostTypes/Faq.php:44
+msgctxt "Overrides the \"Featured Image\" phrase"
+msgid "FAQ Featured Image"
+msgstr ""
+
+#: src/PostTypes/Faq.php:45
+msgctxt "Overrides the \"Set featured image\" phrase"
+msgid "Set featured image"
+msgstr ""
+
+#: src/PostTypes/Faq.php:46
+msgctxt "Overrides the \"Remove featured image\" phrase"
+msgid "Remove featured image"
+msgstr ""
+
+#: src/PostTypes/Faq.php:47
+msgctxt "Overrides the \"Use as featured image\" phrase"
+msgid "Use as featured image"
+msgstr ""
+
+#: src/PostTypes/Faq.php:48
+msgctxt "The post type archive label"
+msgid "FAQ archives"
+msgstr ""
+
+#: src/PostTypes/Faq.php:49
+msgctxt "Overrides the \"Insert into post\" phrase"
+msgid "Insert into FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:50
+msgctxt "Overrides the \"Uploaded to this post\" phrase"
+msgid "Uploaded to this FAQ"
+msgstr ""
+
+#: src/PostTypes/Faq.php:51
+msgctxt "Screen reader text for the filter links"
+msgid "Filter FAQs list"
+msgstr ""
+
+#: src/PostTypes/Faq.php:52
+msgctxt "Screen reader text for the pagination"
+msgid "FAQs list navigation"
+msgstr ""
+
+#: src/PostTypes/Faq.php:53
+msgctxt "Screen reader text for the items list"
+msgid "FAQs list"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:33
+#: src/PostTypes/Portfolio.php:35
+msgid "Portfolio Items"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:34
+msgid "Portfolio Item"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:36
+msgid "All Portfolio Items"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:37
+#: src/PostTypes/Portfolio.php:38
+msgid "Add Portfolio Item"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:39
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:40
+msgid "New Portfolio Item"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:41
+msgid "View Portfolio Item"
+msgstr ""
+
+#: src/PostTypes/Portfolio.php:42
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: src/PostTypes/Service.php:33
+#: src/PostTypes/Service.php:35
+msgid "Services"
+msgstr ""
+
+#: src/PostTypes/Service.php:34
+msgid "Service"
+msgstr ""
+
+#: src/PostTypes/Service.php:36
+msgid "All Services"
+msgstr ""
+
+#: src/PostTypes/Service.php:37
+#: src/PostTypes/Service.php:38
+msgid "Add Service"
+msgstr ""
+
+#: src/PostTypes/Service.php:39
+msgid "Edit Service"
+msgstr ""
+
+#: src/PostTypes/Service.php:40
+msgid "New Service"
+msgstr ""
+
+#: src/PostTypes/Service.php:41
+msgid "View Service"
+msgstr ""
+
+#: src/PostTypes/Service.php:42
+msgid "Search Services"
+msgstr ""
+
+#: src/PostTypes/Slider.php:30
+msgctxt "Post Type General Name"
+msgid "Image Sliders"
+msgstr ""
+
+#: src/PostTypes/Slider.php:31
+msgctxt "Post Type Singular Name"
+msgid "Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:32
+msgid "Image Sliders"
+msgstr ""
+
+#: src/PostTypes/Slider.php:33
+#: src/PostTypes/Slider.php:62
+msgid "Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:34
+msgid "Slider Archives"
+msgstr ""
+
+#: src/PostTypes/Slider.php:35
+msgid "Slider Attributes"
+msgstr ""
+
+#: src/PostTypes/Slider.php:36
+msgid "Parent Slider:"
+msgstr ""
+
+#: src/PostTypes/Slider.php:37
+msgid "All Image Sliders"
+msgstr ""
+
+#: src/PostTypes/Slider.php:38
+msgid "Add Image Slider"
+msgstr ""
+
+#: src/PostTypes/Slider.php:40
+msgid "New Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:41
+msgid "Edit Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:42
+msgid "Update Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:43
+msgid "View Slider Item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:44
+msgid "View Slider Items"
+msgstr ""
+
+#: src/PostTypes/Slider.php:45
+msgid "Search Slider Items"
+msgstr ""
+
+#: src/PostTypes/Slider.php:46
+msgid "Not found"
+msgstr ""
+
+#: src/PostTypes/Slider.php:47
+msgid "Not found in Trash"
+msgstr ""
+
+#: src/PostTypes/Slider.php:48
+msgid "Slider Image"
+msgstr ""
+
+#: src/PostTypes/Slider.php:49
+msgid "Set slider image"
+msgstr ""
+
+#: src/PostTypes/Slider.php:50
+msgid "Remove slider image"
+msgstr ""
+
+#: src/PostTypes/Slider.php:51
+msgid "Use as slider image"
+msgstr ""
+
+#: src/PostTypes/Slider.php:52
+msgid "Insert into slider item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:53
+msgid "Uploaded to this slider item"
+msgstr ""
+
+#: src/PostTypes/Slider.php:54
+msgid "Slider items list"
+msgstr ""
+
+#: src/PostTypes/Slider.php:55
+msgid "Slider items list navigation"
+msgstr ""
+
+#: src/PostTypes/Slider.php:56
+msgid "Filter slider items list"
+msgstr ""
+
+#: src/PostTypes/Slider.php:63
+msgid "Image Slider Items"
+msgstr ""
+
+#: src/PostTypes/Team.php:33
+#: src/PostTypes/Team.php:35
+msgid "Team Members"
+msgstr ""
+
+#: src/PostTypes/Team.php:34
+msgid "Team Member"
+msgstr ""
+
+#: src/PostTypes/Team.php:36
+msgid "All Team Members"
+msgstr ""
+
+#: src/PostTypes/Team.php:37
+#: src/PostTypes/Team.php:38
+msgid "Add Team Member"
+msgstr ""
+
+#: src/PostTypes/Team.php:39
+msgid "Edit Team Member"
+msgstr ""
+
+#: src/PostTypes/Team.php:40
+msgid "New Team Member"
+msgstr ""
+
+#: src/PostTypes/Team.php:41
+msgid "View Team Member"
+msgstr ""
+
+#: src/PostTypes/Team.php:42
+msgid "Search Team Members"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:34
+msgid "Portfolio Categories"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:35
+msgid "Portfolio Category"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:36
+msgid "Categories"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:37
+#: src/Taxonomies/ServiceCategory.php:37
+msgid "All Categories"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:38
+#: src/Taxonomies/ServiceCategory.php:38
+msgid "Edit Category"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:39
+#: src/Taxonomies/ServiceCategory.php:39
+msgid "Update Category"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:40
+#: src/Taxonomies/ServiceCategory.php:40
+msgid "Add New Category"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:41
+#: src/Taxonomies/ServiceCategory.php:41
+msgid "New Category Name"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:42
+#: src/Taxonomies/ServiceCategory.php:42
+msgid "Parent Category"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:43
+#: src/Taxonomies/ServiceCategory.php:44
+msgid "Search Categories"
+msgstr ""
+
+#: src/Taxonomies/PortfolioCategory.php:44
+#: src/Taxonomies/ServiceCategory.php:49
+msgid "No categories found"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:34
+#: src/Taxonomies/ServiceCategory.php:36
+#: src/Widgets/ServiceCategories.php:40
+#: src/Widgets/ServiceCategories.php:56
+#: src/Widgets/ServiceCategories.php:105
+msgid "Service Categories"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:35
+msgid "Service Category"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:43
+msgid "Parent Category:"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:45
+msgid "Popular Categories"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:46
+msgid "Separate categories with commas"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:47
+msgid "Add or remove categories"
+msgstr ""
+
+#: src/Taxonomies/ServiceCategory.php:48
+msgid "Choose from most used categories"
+msgstr ""
+
+#: src/Widgets/ImageSlider.php:41
+msgid "Stylena Image Slider"
+msgstr ""
+
+#: src/Widgets/ImageSlider.php:42
+msgid "Display the image slider"
+msgstr ""
+
+#: src/Widgets/ImageSlider.php:86
+#: src/Widgets/ServiceCategories.php:111
+msgid "Title:"
+msgstr ""
+
+#: src/Widgets/ImageSlider.php:92
+msgid "Height:"
+msgstr ""
+
+#: src/Widgets/ServiceCategories.php:42
+msgid "Display service categories with customizable options."
+msgstr ""
+
+#: src/Widgets/ServiceCategories.php:92
+msgid "No service categories found."
+msgstr ""
+
+#: src/Widgets/ServiceCategories.php:116
+msgid "Show service count"
+msgstr ""
+
+#: src/Widgets/ServiceCategories.php:120
+msgid "Show empty categories"
+msgstr ""
+
+#: src/Widgets/ServiceCategories.php:123
+msgid "Number of categories to show (0 = all):"
+msgstr ""
+
+#: templates/slider.php:30
+msgid "Pause slider"
+msgstr ""
+
+#: templates/slider.php:31
+msgid "Play slider"
+msgstr ""

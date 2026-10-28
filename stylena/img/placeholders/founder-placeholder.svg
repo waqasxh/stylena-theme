@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#7f7e7c"/>
+  <circle cx="200" cy="160" r="70" fill="#bc9c25" opacity="0.35"/>
+  <path d="M80 340c0-70 54-120 120-120s120 50 120 120" fill="#bc9c25" opacity="0.35"/>
+  <text x="200" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#fefefe" opacity="0.8">Founder Photo Placeholder</text>
+</svg>

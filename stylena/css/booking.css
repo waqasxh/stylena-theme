@@ -1,0 +1,69 @@
+/* Stylena: basic styling for common booking plugin wrappers. Loaded only when one is active.
+   Selectors are best-effort and may change with plugin updates. */
+.bookly-form,
+#amelia-app-booking,
+.amelia-app-booking,
+.ssa_booking_app,
+#ssa-booking-app,
+.ea-bootstrap,
+.ea-standard,
+.latepoint-booking-form-element,
+.latepoint-w,
+.calendly-inline-widget {
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  color: #2b2b2b;
+}
+
+.bookly-form *,
+.latepoint-w *,
+.ea-bootstrap * { box-sizing: border-box; }
+
+.bookly-form .bookly-btn,
+.bookly-form .bookly-next-step,
+.bookly-form .bookly-back-step,
+#amelia-app-booking .am-button,
+.ssa_booking_app button,
+.ea-bootstrap .btn-primary,
+.latepoint-w .latepoint-btn,
+.latepoint-w .latepoint-btn-primary {
+  background-color: #bc9c25;
+  border-color: #bc9c25;
+  color: #fff;
+  border-radius: 2px;
+}
+.bookly-form .bookly-btn:hover,
+.bookly-form .bookly-next-step:hover,
+.ea-bootstrap .btn-primary:hover,
+.latepoint-w .latepoint-btn:hover {
+  background-color: #2b2b2b;
+  border-color: #2b2b2b;
+  color: #fff;
+}
+
+.bookly-form input[type="text"],
+.bookly-form input[type="email"],
+.bookly-form input[type="tel"],
+.bookly-form select,
+.ea-bootstrap input,
+.ea-bootstrap select,
+.ea-bootstrap textarea,
+.latepoint-w input,
+.latepoint-w select {
+  max-width: 100%;
+  border: 1px solid #e3ded0;
+  border-radius: 2px;
+}
+
+/* Embeds must not overflow the theme container */
+.calendly-inline-widget,
+.calendly-inline-widget iframe,
+#amelia-app-booking iframe,
+.ssa_booking_app iframe { width: 100%; max-width: 100%; }
+
+@media (max-width: 767px) {
+  .bookly-form,
+  .latepoint-w,
+  .ea-bootstrap { font-size: 15px; }
+}

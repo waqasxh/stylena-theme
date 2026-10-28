@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 524 500">
+  <rect width="524" height="500" fill="#7f7e7c"/>
+  <rect x="182" y="180" width="160" height="120" rx="8" fill="none" stroke="#bc9c25" stroke-width="3" opacity="0.6"/>
+  <circle cx="222" cy="215" r="14" fill="#bc9c25" opacity="0.6"/>
+  <path d="M182 285l45-45 35 35 30-30 60 60" fill="none" stroke="#bc9c25" stroke-width="3" opacity="0.6"/>
+  <text x="262" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#fefefe" opacity="0.85">Consultation Image Placeholder</text>
+</svg>

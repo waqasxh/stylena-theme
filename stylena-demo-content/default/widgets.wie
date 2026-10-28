@@ -1,0 +1,34 @@
+{
+    "sidebar-right": {
+        "search-2": {
+            "title": ""
+        },
+        "recent-posts-2": {
+            "title": "Recent Posts",
+            "number": 5,
+            "show_date": false
+        },
+        "stylena_service_categories-2": {
+            "title": "Service Categories",
+            "show_count": 1,
+            "show_empty": 0,
+            "limit": 0
+        }
+    },
+    "footer-left": {
+        "text-2": {
+            "title": "About",
+            "text": "<p>A short description of your business. Edit this widget under Appearance > Widgets.</p>",
+            "filter": true,
+            "visual": true
+        }
+    },
+    "footer-right": {
+        "text-3": {
+            "title": "Contact",
+            "text": "<p>123 Example Street, Sample City, State 00000<br>+1 (000) 000-0000<br>hello@example.com</p>",
+            "filter": true,
+            "visual": true
+        }
+    }
+}

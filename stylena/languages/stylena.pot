@@ -1,0 +1,1673 @@
+# Copyright (C) 2026 Zylonex
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Stylena 1.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/stylena\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-28T12:53:48+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: stylena\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Stylena"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://stylena.zylonex.com"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Custom theme for beauty and wellness businesses. Features a full-width homepage hero with an optional background video, custom navigation layout, and modern design elements. Built on Bootstrap 4 framework for responsive design."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "Zylonex"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://zylonex.com"
+msgstr ""
+
+#: 404.php:28
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:30
+msgid "We're sorry, but the page you're looking for seems to have taken a different path. Our beauty experts have searched everywhere, but this page appears to have vanished like a perfectly applied concealer."
+msgstr ""
+
+#: 404.php:36
+msgid "Return Home"
+msgstr ""
+
+#. translators: %s: Publication date (markup is added by the theme).
+#: attachment.php:35
+#, php-format
+msgid "Published %s"
+msgstr ""
+
+#. translators: %s: Linked attachment dimensions, e.g. "800 × 600".
+#: attachment.php:47
+#, php-format
+msgid "at %s"
+msgstr ""
+
+#: attachment.php:51
+#: attachment.php:97
+msgid "Link to attachment file"
+msgstr ""
+
+#. translators: 1: Attachment width, 2: Attachment height.
+#: attachment.php:54
+#, php-format
+msgid "%1$s &times; %2$s"
+msgstr ""
+
+#. translators: %s: Linked title of the parent post.
+#: attachment.php:64
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#. translators: %s: Parent post title.
+#: attachment.php:71
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#. translators: %s: Link to the attachment file.
+#: attachment.php:93
+#, php-format
+msgid "(%s)"
+msgstr ""
+
+#: attachment.php:98
+msgid "attachment file"
+msgstr ""
+
+#: attachment.php:110
+msgid "Previous"
+msgstr ""
+
+#: attachment.php:111
+msgid "Next"
+msgstr ""
+
+#: attachment.php:141
+#: page.php:44
+#: template-parts/content.php:81
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: The post title
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One comment on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:50
+#: comments.php:78
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:51
+#: comments.php:79
+msgid "Comments"
+msgstr ""
+
+#: comments.php:52
+#: comments.php:80
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:53
+#: comments.php:81
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:130
+#: inc/functions/stylena-functions.php:629
+msgid "Name"
+msgstr ""
+
+#: comments.php:136
+#: inc/functions/stylena-functions.php:632
+msgid "Email"
+msgstr ""
+
+#: comments.php:142
+msgid "Website"
+msgstr ""
+
+#: comments.php:149
+msgid "Comment"
+msgstr ""
+
+#. translators: 1: "HTML" abbreviation markup, 2: Comment allowed HTML tags.
+#: comments.php:158
+#, php-format
+msgid "You may use these %1$s tags and attributes: %2$s"
+msgstr ""
+
+#: comments.php:159
+msgid "HyperText Markup Language"
+msgstr ""
+
+#: comments.php:159
+msgid "HTML"
+msgstr ""
+
+#: footer.php:136
+msgid "Footer menu"
+msgstr ""
+
+#: footer.php:150
+#: header.php:202
+#: header.php:294
+#: single-service.php:51
+msgid "Services"
+msgstr ""
+
+#: footer.php:153
+#: header.php:205
+#: header.php:297
+msgid "Team"
+msgstr ""
+
+#: footer.php:156
+#: header.php:208
+#: header.php:300
+msgid "Membership"
+msgstr ""
+
+#: footer.php:159
+#: header.php:211
+#: header.php:303
+#: inc/functions/portfolio.php:226
+#: inc/functions/portfolio.php:363
+msgid "Portfolio"
+msgstr ""
+
+#: footer.php:169
+msgid "BUSINESS LOCATION"
+msgstr ""
+
+#: footer.php:172
+msgid "Your street address"
+msgstr ""
+
+#: footer.php:172
+msgid "City"
+msgstr ""
+
+#: footer.php:172
+msgid "Postcode"
+msgstr ""
+
+#: footer.php:200
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: footer.php:203
+msgid "Follow us on Instagram"
+msgstr ""
+
+#: footer.php:206
+msgid "Contact us on Telegram"
+msgstr ""
+
+#. translators: 1: Copyright year, 2: Site/brand name.
+#: footer.php:219
+#, php-format
+msgid "&copy; %2$s %1$s. All rights reserved."
+msgstr ""
+
+#: front-page.php:173
+#: front-page.php:303
+#: front-page.php:365
+#: front-page.php:462
+#: front-page.php:537
+#: front-page.php:550
+msgid "Previous slide"
+msgstr ""
+
+#: front-page.php:176
+#: front-page.php:306
+#: front-page.php:368
+#: front-page.php:465
+#: front-page.php:540
+#: front-page.php:553
+msgid "Next slide"
+msgstr ""
+
+#: front-page.php:235
+#: single-service.php:61
+msgid "New"
+msgstr ""
+
+#: front-page.php:246
+msgid "from"
+msgstr ""
+
+#: front-page.php:266
+msgid "Reserve Now"
+msgstr ""
+
+#: front-page.php:452
+msgid "No team members available at the moment."
+msgstr ""
+
+#: front-page.php:521
+#: inc/functions/portfolio.php:390
+msgid "Our Work"
+msgstr ""
+
+#: front-page.php:522
+#: inc/functions/portfolio.php:407
+msgid "A selection of our recent projects"
+msgstr ""
+
+#: header.php:37
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:60
+#: header.php:250
+msgid "Secondary menu"
+msgstr ""
+
+#: header.php:75
+#: header.php:263
+msgid "About Us"
+msgstr ""
+
+#: header.php:78
+#: header.php:266
+msgid "Contact Us"
+msgstr ""
+
+#: header.php:81
+#: header.php:269
+msgid "Reviews"
+msgstr ""
+
+#: header.php:137
+msgid "Contact and search"
+msgstr ""
+
+#: header.php:144
+msgid "WhatsApp"
+msgstr ""
+
+#: header.php:163
+#: searchform.php:18
+#: searchform.php:20
+#: searchform.php:29
+#: searchform.php:31
+#: searchform.php:57
+msgid "Search"
+msgstr ""
+
+#: header.php:188
+#: header.php:279
+msgid "Primary menu"
+msgstr ""
+
+#: header.php:223
+msgid "Toggle navigation"
+msgstr ""
+
+#: header.php:227
+msgid "WhatsApp (opens in a new tab)"
+msgstr ""
+
+#: header.php:232
+msgid "Call us"
+msgstr ""
+
+#: header.php:246
+msgid "Site navigation"
+msgstr ""
+
+#: header.php:308
+msgid "Close navigation"
+msgstr ""
+
+#: inc/classes/Stylena.php:165
+msgid "Pause slider"
+msgstr ""
+
+#: inc/classes/Stylena.php:166
+msgid "Play slider"
+msgstr ""
+
+#: inc/classes/Stylena.php:169
+msgid "Pause background video"
+msgstr ""
+
+#: inc/classes/Stylena.php:170
+msgid "Play background video"
+msgstr ""
+
+#: inc/classes/Stylena.php:186
+msgid "Searching..."
+msgstr ""
+
+#: inc/classes/Stylena.php:187
+msgid "Search failed"
+msgstr ""
+
+#: inc/classes/Stylena.php:188
+msgid "Connection error"
+msgstr ""
+
+#. translators: %s: search term
+#: inc/classes/Stylena.php:190
+#, php-format
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: inc/classes/Stylena.php:191
+msgid "No Results Found"
+msgstr ""
+
+#: inc/classes/Stylena.php:192
+msgid "Close search results"
+msgstr ""
+
+#. translators: %d: number of results
+#: inc/classes/Stylena.php:194
+#, php-format
+msgid "%d results found"
+msgstr ""
+
+#: inc/classes/Stylena.php:228
+msgid "Sidebar left"
+msgstr ""
+
+#: inc/classes/Stylena.php:239
+msgid "Sidebar right"
+msgstr ""
+
+#: inc/classes/Stylena.php:250
+msgid "Header right"
+msgstr ""
+
+#: inc/classes/Stylena.php:261
+msgid "Navigation bar right"
+msgstr ""
+
+#: inc/classes/Stylena.php:272
+msgid "Footer left"
+msgstr ""
+
+#: inc/classes/Stylena.php:283
+msgid "Footer right"
+msgstr ""
+
+#: inc/classes/Stylena.php:316
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/classes/Stylena.php:317
+msgid "Top Left Menu"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:132
+msgid "Posted in"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:159
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:185
+msgid "Pingback:"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:187
+#: inc/classes/StylenaDesign.php:229
+#: inc/classes/StylenaDesign.php:284
+msgid "Edit"
+msgstr ""
+
+#. translators: %1$s: Comment date, %2$s: Comment time.
+#: inc/classes/StylenaDesign.php:222
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:237
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: $s: Comment author name with link.
+#: inc/classes/StylenaDesign.php:244
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:260
+msgid "Reply"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:261
+msgid "Log in to Reply"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:334
+msgid "Page navigation"
+msgstr ""
+
+#. translators: %1$s: Date/time with link, %2$s: Author name with link.
+#: inc/classes/StylenaDesign.php:397
+#, php-format
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr ""
+
+#. translators: %s Author name.
+#: inc/classes/StylenaDesign.php:408
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/classes/StylenaDesign.php:430
+msgid "Tagged"
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:61
+msgid "This section is not available yet."
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:63
+msgid "Plugins > Stylena Core required: install and activate it to show this content."
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:64
+msgid "Open Plugins"
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:78
+msgid "No items yet."
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:85
+#: page-teams-fullwidth.php:148
+msgid "Add new"
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:87
+#: inc/functions/portfolio.php:319
+#: page-teams-fullwidth.php:148
+msgid "Import demo content"
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:177
+msgid "Your services, team, portfolio, FAQ and slider content is safe, but it is hidden until the Stylena Core plugin is active."
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:178
+msgid "Install or activate Stylena Core"
+msgstr ""
+
+#: inc/functions/core-plugin-compat.php:180
+msgid "Dismiss"
+msgstr ""
+
+#: inc/functions/demo-import.php:111
+msgid "Stylena Default"
+msgstr ""
+
+#: inc/functions/demo-import.php:112
+msgid "Stylena Light Minimal"
+msgstr ""
+
+#: inc/functions/demo-import.php:113
+msgid "Stylena Warm Rose"
+msgstr ""
+
+#: inc/functions/demo-import.php:161
+msgid "Stylena demo files not found. Download the separate \"Stylena demo content\" package, extract it and upload the stylena-demo folder to wp-content/uploads/ so that wp-content/uploads/stylena-demo/default/content.xml exists. See the documentation (Demo Import) for details."
+msgstr ""
+
+#: inc/functions/demo-import.php:210
+msgid "Import on a fresh site. Importing twice creates duplicate content."
+msgstr ""
+
+#: inc/functions/demo-import.php:211
+msgid "A style variant: colours, fonts, hero text and section choices. It reuses the default demo content, which is imported only if it is not on this site yet."
+msgstr ""
+
+#: inc/functions/demo-import.php:227
+msgid "Please install and activate the Stylena Core plugin before importing demo content."
+msgstr ""
+
+#: inc/functions/demo-import.php:228
+msgid "Stylena demo import"
+msgstr ""
+
+#. translators: %s: host name of the demo media server
+#: inc/functions/demo-import.php:270
+#, php-format
+msgid "External service: the demo import downloads about 30 sample images from %s into your Media Library, which sends your server IP address to that host. The images are AI-generated stand-ins, may become unavailable at any time (the demo then imports without them), and should be replaced with your own photography."
+msgstr ""
+
+#. translators: %d: number of demo images that could not be downloaded
+#: inc/functions/demo-import.php:280
+#, php-format
+msgid "%d demo image could not be downloaded during the last import (the demo media server may be offline). The demo imported without it and the built-in placeholder is shown instead. You can add your own image, or run the import again later."
+msgid_plural "%d demo images could not be downloaded during the last import (the demo media server may be offline). The demo imported without them and the built-in placeholders are shown instead. You can add your own images, or run the import again later."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/demo-import.php:288
+msgid "Demo content was already imported on this site. Importing again creates duplicate pages, posts and menu items. Use a fresh site for a clean result."
+msgstr ""
+
+#: inc/functions/portfolio.php:216
+msgid "Filter portfolio by category"
+msgstr ""
+
+#: inc/functions/portfolio.php:217
+msgid "All"
+msgstr ""
+
+#: inc/functions/portfolio.php:226
+msgid "carousel"
+msgstr ""
+
+#. translators: %s: portfolio item title
+#: inc/functions/portfolio.php:264
+#, php-format
+msgid "Open image: %s"
+msgstr ""
+
+#: inc/functions/portfolio.php:286
+msgid "View Project"
+msgstr ""
+
+#: inc/functions/portfolio.php:287
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: inc/functions/portfolio.php:302
+msgid "Load More"
+msgstr ""
+
+#: inc/functions/portfolio.php:316
+msgid "Portfolio coming soon"
+msgstr ""
+
+#: inc/functions/portfolio.php:317
+msgid "No portfolio items have been added yet. Check back soon for our latest work!"
+msgstr ""
+
+#: inc/functions/portfolio.php:319
+msgid "Add portfolio item"
+msgstr ""
+
+#: inc/functions/portfolio.php:345
+msgid "Image viewer"
+msgstr ""
+
+#: inc/functions/portfolio.php:346
+msgid "Close"
+msgstr ""
+
+#: inc/functions/portfolio.php:347
+msgid "Previous image"
+msgstr ""
+
+#: inc/functions/portfolio.php:348
+msgid "Next image"
+msgstr ""
+
+#: inc/functions/portfolio.php:364
+msgid "Settings for the portfolio grid and the home page Portfolio section. Add items under Portfolio Items."
+msgstr ""
+
+#: inc/functions/portfolio.php:381
+msgid "Show Portfolio section on the home page"
+msgstr ""
+
+#: inc/functions/portfolio.php:398
+msgid "Home Portfolio title"
+msgstr ""
+
+#: inc/functions/portfolio.php:415
+msgid "Home Portfolio subtitle"
+msgstr ""
+
+#: inc/functions/portfolio.php:432
+msgid "Number of items on the home page"
+msgstr ""
+
+#: inc/functions/portfolio.php:433
+msgid "The home page Portfolio is a slider showing 3 items at a time on desktop, 2 on tablet and 1 on phone; this is the total number of slides."
+msgstr ""
+
+#: inc/functions/portfolio.php:455
+msgid "Portfolio items shown first on the Portfolio page"
+msgstr ""
+
+#: inc/functions/portfolio.php:456
+msgid "The Load More button reveals this many further items each click."
+msgstr ""
+
+#: inc/functions/portfolio.php:478
+msgid "Open portfolio images in a lightbox"
+msgstr ""
+
+#: inc/functions/portfolio.php:495
+msgid "Show category filters on the Portfolio page"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:167
+msgid "Homepage Hero"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:169
+msgid "Add widgets to appear in the homepage hero section."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:179
+msgid "Homepage Services"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:181
+msgid "Add widgets to appear in the homepage services section."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:337
+#: inc/functions/stylena-functions.php:338
+#: inc/functions/stylena-functions.php:339
+msgid "Sample Client"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:337
+msgid "This is a sample review. Replace it with feedback from your own clients to build trust with visitors."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:338
+msgid "Placeholder text showing how a short testimonial looks. Great service and a friendly team could go here."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:339
+msgid "Another example review. Edit these cards in the Customizer or install the Site Reviews plugin."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:463
+#: inc/functions/stylena-functions.php:577
+#: inc/functions/theme-customizer.php:1639
+msgid "WHAT OUR CLIENTS SAY"
+msgstr ""
+
+#. translators: %d: number of reviews
+#: inc/functions/stylena-functions.php:473
+#, php-format
+msgid "%d review"
+msgid_plural "%d reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/functions/stylena-functions.php:493
+msgid "Sample reviews shown. Replace them under Customize > Reviews Section, or install Site Reviews."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:526
+msgid "Sample review"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:635
+msgid "Phone"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:716
+msgid "Advice Section"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:717
+msgid "Configure the advice/consultation section settings"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:734
+msgid "Enable Advice Section"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:752
+msgid "Section Title"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:763
+msgid "We offer complementary online and in-person consultations. We are here to help you make the right choices."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:770
+msgid "Section Subtitle"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:788
+msgid "Contact Form 7 Shortcode"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:789
+msgid "Enter the Contact Form 7 shortcode (e.g., [contact-form-7 id=\"123\" title=\"Advice Form\"]). Leave empty to use default form."
+msgstr ""
+
+#: inc/functions/stylena-functions.php:800
+msgid "Send a request"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:807
+msgid "Button Text"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:818
+msgid "By clicking to send, I agree to the terms and conditions"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:825
+msgid "Terms and Conditions Text"
+msgstr ""
+
+#: inc/functions/stylena-functions.php:845
+msgid "Section Image"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:29
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:46
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:63
+msgid "Telegram Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:80
+#: inc/functions/theme-customizer.php:722
+msgid "WhatsApp Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:98
+msgid "WhatsApp Label"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:116
+msgid "Phone Number"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:134
+msgid "Phone Label"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:144
+msgid "About Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:145
+msgid "Customize the About section on the homepage"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:163
+msgid "About Section Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:173
+msgid "Your business is more than just a place to visit; it’s where every detail is focused on creating a great experience. Use this space to introduce your team, your approach and the services you offer. Replace this text from Appearance > Customize > About section."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:181
+msgid "About Section Description 1"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:191
+msgid "Use this space to share your story and values, and to tell visitors what makes your business different. You can edit this text in the Customizer under About."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:199
+msgid "About Section Description 2"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:220
+msgid "Founder Image"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:239
+msgid "Founder Name"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:249
+#: inc/functions/theme-customizer.php:917
+msgid "Founder of Stylena"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:257
+#: inc/functions/theme-customizer.php:925
+msgid "Founder Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:267
+msgid "Services Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:268
+msgid "Customize the Services section on the homepage"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:286
+msgid "Services Section Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:304
+msgid "View All button text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:305
+msgid "Used by the View All buttons under the Services, Team and Portfolio sections. Leave empty for \"View All\"."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:315
+msgid "Discover our premium beauty treatments tailored to enhance your natural elegance"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:323
+msgid "Services Section Subtitle"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:333
+#: page-services-fullwidth.php:85
+#: page-services-fullwidth.php:212
+msgid "No services available at the moment."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:341
+msgid "No Services Available Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:359
+msgid "Number of Services to Display"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:360
+msgid "Set the maximum number of services to show in the services section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:383
+msgid "Price Symbol"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:384
+msgid "Currency or price symbol to display before service prices (e.g., £, $, €)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:398
+msgid "Team Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:399
+msgid "Customize the Team section that appears below services"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:417
+msgid "Enable Team Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:435
+msgid "Team Section Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:445
+msgid "Meet our talented team of beauty professionals"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:453
+msgid "Team Section Subtitle"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:471
+msgid "Number of Team Members to Show"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:486
+msgid "Image Slider"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:487
+msgid "Configure the image slider settings"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:506
+msgid "Enable Image Slider"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:524
+msgid "Slider Height"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:527
+msgid "Enter height with units (e.g., 400px, 50vh)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:543
+msgid "Enable Autoplay"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:561
+msgid "Autoplay Speed (milliseconds)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:584
+msgid "Marquee Stop Duration (milliseconds)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:587
+msgid "How long the slider pauses after moving one full slide width."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:600
+msgid "Footer"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:601
+msgid "Customize the footer logo text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:611
+msgid "Header"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:612
+msgid "Customize the header logo text and contact information"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:630
+msgid "Header Logo Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:639
+msgid "Logo (light / on dark header)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:640
+msgid "Optional. Replaces the site logo in the header. Leave empty to keep the logo from Site Identity."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:643
+msgid "Logo (dark variant)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:644
+msgid "Optional. For dark-on-light header styles; used by child themes via stylena_get_logo_url( 'dark' )."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:647
+msgid "Logo (mobile)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:648
+msgid "Optional. Shown instead of the header logo on screens narrower than 768px."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:680
+msgid "Homepage Sections"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:681
+msgid "Show or hide homepage sections. Team, Reviews, Advice, FAQ and Slider toggles are in their own sections."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:687
+msgid "Show Hero section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:688
+msgid "Show About section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:689
+msgid "Show Services section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:740
+msgid "Telephone Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:758
+msgid "Telephone Number"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:776
+msgid "Book Button Link"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:794
+msgid "Book Button Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:812
+msgid "Show Book Button"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:830
+msgid "Open Book link in a new tab"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:848
+msgid "Logo Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:868
+msgid "Logo Image"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:887
+msgid "Business Address"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:890
+msgid "Enter the business address for the footer. HTML allowed."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:906
+msgid "Business Email"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:909
+msgid "Enter the business email for the footer."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:935
+msgid "Stylena Theme Options"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:936
+msgid "Customize your Stylena theme appearance"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:945
+msgid "Typography"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:946
+msgid "Choose fonts for your website"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:967
+msgid "Heading Font"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:968
+msgid "Choose the font for headings (h1, h2, h3, etc.)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:988
+msgid "Body Font"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:989
+msgid "Choose the font for body text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1009
+msgid "Load other fonts from Google Fonts"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1010
+msgid "Exo, Aboreto and Montserrat are bundled and never contact Google. The other listed fonts are not bundled; enabling this loads them from Google servers, which sends visitor IP addresses to Google (check your privacy and GDPR obligations)."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1018
+msgid "Colors"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1019
+msgid "Customize theme colors"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1040
+msgid "Primary Color"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1041
+msgid "Choose the primary theme color"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1063
+msgid "Background Color"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1064
+msgid "Set the default site background color"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1085
+msgid "Header Background Color (Override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1086
+msgid "Override the default header background (leave as default to maintain original styling)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1107
+msgid "Header Logo Color (Override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1108
+msgid "Override the default header logo color (leave as default to maintain original styling)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1129
+msgid "Header Menu & Text Color (Override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1130
+msgid "Override the default header menu and text color (leave as default to maintain original styling)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1151
+msgid "Footer Background Color (Override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1152
+msgid "Override the default footer background color (leave as default to maintain original styling)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1173
+msgid "Footer Text Color (Override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1174
+msgid "Override the default footer text color (leave as default to maintain original styling)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1184
+msgid "Hero Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1185
+msgid "Customize hero section elements"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1206
+msgid "Hero Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1207
+msgid "Main title on homepage hero section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1225
+msgid "Hero Subtitle"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1226
+msgid "Subtitle text on homepage hero section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1244
+msgid "Hero CTA Button 1 Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1245
+msgid "Text for the first hero CTA button"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1263
+msgid "Hero CTA Button 1 URL"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1264
+msgid "URL for the first hero CTA button"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1282
+msgid "Hero CTA Button 2 Text"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1283
+msgid "Text for the second hero CTA button"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1301
+msgid "Hero CTA Button 2 URL"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1302
+msgid "URL for the second hero CTA button"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1320
+msgid "Hero Video"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1321
+msgid "Upload a background video for the homepage hero (MP4, under 10MB recommended). Leave empty to show only the poster image below."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1342
+msgid "Hero Poster Image"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1343
+msgid "Shown while the video loads, and as the hero background when no video is set."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1363
+msgid "Hero Top Margin - Desktop (Value)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1364
+msgid "Margin value for desktop screens"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1387
+msgid "Hero Top Margin - Desktop (Unit)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1388
+msgid "Unit for desktop margin"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1412
+msgid "Hero Top Margin - Mobile (Value)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1413
+msgid "Margin value for mobile screens"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1436
+msgid "Hero Top Margin - Mobile (Unit)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1437
+msgid "Unit for mobile margin"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1459
+msgid "Only administrators can clear the reviews cache."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1469
+#: inc/functions/theme-customizer.php:1791
+msgid "Clear Reviews Cache"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1487
+msgid "Reviews cache cleared."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1499
+msgid "Failed to clear reviews cache:"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1502
+msgid "Unexpected response clearing cache"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1516
+msgid "Reviews Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1517
+msgid "Configure Google Reviews shown on the homepage"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1534
+msgid "Enable Reviews"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1551
+msgid "Use the Site Reviews plugin when it is active"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1552
+msgid "Untick to keep showing the built-in Google/custom review cards even if Site Reviews is installed."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1569
+msgid "Allow contact with Google (Places API)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1572
+msgid "Off by default. When enabled, your website server contacts Google to load your reviews, which sends the server's IP address, your Place ID and your API key. When off, no request is made to Google and only the fallback reviews below are shown."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1590
+msgid "Google API Key"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1593
+msgid "A Google Places API key with access to Place Details (keep secret; stored outside theme settings and not exported). You can also define STYLENA_GOOGLE_PLACES_KEY in wp-config.php. If left empty, custom fallback reviews will be shown."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1608
+msgid "Google Place ID"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1611
+msgid "The Place ID of your business (use Google Place ID Finder)."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1626
+msgid "Number of reviews to show"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1647
+msgid "Reviews Section Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1665
+msgid "Place / Business Name (override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1668
+msgid "Optionally override the place name shown in the reviews header and stats. Leave empty to use Google Places data."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1683
+msgid "Total reviews (override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1687
+msgid "Enter a number to override the total reviews count shown in the stats. Leave empty to use the calculated count."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1702
+msgid "Average rating (override)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1710
+msgid "Enter a decimal between 0 and 5 (e.g., 4.8) to override the displayed average rating. Leave empty to use the calculated average."
+msgstr ""
+
+#. translators: %d: fallback review number
+#: inc/functions/theme-customizer.php:1728
+#, php-format
+msgid "Fallback review text #%d"
+msgstr ""
+
+#. translators: %d: fallback review number
+#: inc/functions/theme-customizer.php:1746
+#, php-format
+msgid "Fallback author #%d"
+msgstr ""
+
+#. translators: %d: fallback review number
+#: inc/functions/theme-customizer.php:1764
+#, php-format
+msgid "Fallback rating #%d (1-5)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1793
+msgid "Click to clear cached Google Reviews transients (admin only)."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1807
+msgid "FAQ Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1808
+msgid "Customize the FAQ section that appears before the footer"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1826
+msgid "Enable FAQ Section"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1827
+msgid "Show or hide the FAQ section on the homepage"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1845
+msgid "FAQ Section Title"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1865
+msgid "FAQ Section Image"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1866
+msgid "Upload an image for the FAQ section. If no image is uploaded, a stylized placeholder scene will be displayed."
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1888
+msgid "Exo (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1889
+msgid "Aboreto (Display)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1890
+msgid "Montserrat Medium (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1891
+msgid "Cormorant Garamond (Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1892
+msgid "Montserrat (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1893
+msgid "Roboto (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1894
+msgid "Open Sans (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1895
+msgid "Lato (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1896
+msgid "Poppins (Sans Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1897
+msgid "Playfair Display (Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1898
+msgid "Lora (Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1899
+msgid "Merriweather (Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1900
+msgid "Crimson Text (Serif)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1901
+msgid "Dancing Script (Cursive)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1902
+msgid "Great Vibes (Cursive)"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:1903
+msgid "System Fonts"
+msgstr ""
+
+#: inc/functions/theme-customizer.php:2025
+msgid "View All"
+msgstr ""
+
+#. Template Name of the theme
+msgid "About Us (Full Width)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Contact Us (Full Width)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Full Width"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Membership (Full Width)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Portfolio (Full - Width)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Reviews (Full Width)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Services (Full Width)"
+msgstr ""
+
+#: page-services-fullwidth.php:179
+msgid "No image"
+msgstr ""
+
+#: page-services-fullwidth.php:194
+msgid "Price:"
+msgstr ""
+
+#: page-services-fullwidth.php:197
+msgid "Duration:"
+msgstr ""
+
+#: page-services-fullwidth.php:202
+msgid "Reserve"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Teams (Full Width)"
+msgstr ""
+
+#: page-teams-fullwidth.php:112
+msgid "Specialties:"
+msgstr ""
+
+#: page-teams-fullwidth.php:145
+msgid "No Team Members Found"
+msgstr ""
+
+#: page-teams-fullwidth.php:146
+msgid "There are currently no team members to display. Please check back later."
+msgstr ""
+
+#. translators: %s: The search query string (search value).
+#: search.php:27
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:19
+#: searchform.php:30
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:53
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:54
+msgid "Search &hellip;"
+msgstr ""
+
+#: single-service.php:48
+msgid "Breadcrumb"
+msgstr ""
+
+#: single-service.php:49
+msgid "Home"
+msgstr ""
+
+#: single-service.php:80
+msgid "Price"
+msgstr ""
+
+#: single-service.php:86
+msgid "Duration"
+msgstr ""
+
+#: single-service.php:113
+msgid "Book This Service"
+msgstr ""
+
+#: single-service.php:118
+msgid "Book via WhatsApp"
+msgstr ""
+
+#. translators: %s: phone number
+#: single-service.php:126
+#, php-format
+msgid "Call %s"
+msgstr ""
+
+#: single-service.php:128
+msgid "Call Us"
+msgstr ""
+
+#: single-service.php:139
+msgid "About This Service"
+msgstr ""
+
+#: single-service.php:164
+msgid "Related Services"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: template-parts/content.php:97
+#: template-parts/content.php:108
+msgid ", "
+msgstr ""
+
+#: template-parts/section-no-results.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: %1$s: URL to add new post.
+#: template-parts/section-no-results.php:22
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/section-no-results.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/section-no-results.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""

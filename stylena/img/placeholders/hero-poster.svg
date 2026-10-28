@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#2a2a2a"/>
+  <rect width="1920" height="1080" fill="#7f7e7c" opacity="0.25"/>
+  <circle cx="960" cy="500" r="70" fill="#bc9c25" opacity="0.85"/>
+  <path d="M935 465l70 35-70 35z" fill="#2a2a2a"/>
+  <text x="960" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#fefefe" opacity="0.85">Hero Video Placeholder</text>
+</svg>

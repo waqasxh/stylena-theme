@@ -1,0 +1,675 @@
+/*
+Theme Name: Stylena (RTL)
+Auto-generated mirror of directional rules in css/custom.css and css/responsive.css.
+Loaded by WordPress automatically on RTL locales. Review visually with an RTL language.
+*/
+
+body:not(.homepage) .homepage-footer .container-fluid {
+  padding-right: 15px;
+  padding-left: unset;
+  padding-left: 15px;
+  padding-right: unset;
+}
+.reviews-section .reviews-title {
+  text-align: right !important;
+}
+.review-slide {
+  margin-left: 0px;
+  margin-right: unset;
+}
+.review-slide:last-child {
+  margin-left: 0;
+  margin-right: unset;
+}
+.reviews-count {
+  margin-left: 0.75rem;
+  margin-right: unset;
+}
+.review-slide:not(:first-child) .review-card {
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: unset;
+}
+.review-stars {
+  margin-right: 10px;
+  margin-left: unset;
+}
+.advice-form select.form-control {
+  padding-left: 30px;
+  padding-right: unset;
+}
+.advice-terms-label {
+  margin-right: 0.5rem;
+  margin-left: unset;
+}
+.advice-form.cf7-form .wpcf7-list-item-label {
+  margin-right: 0.5rem !important;
+  margin-left: unset !important;
+}
+.footer-nav-col {
+  padding-right: 2rem;
+  padding-left: unset;
+}
+.footer-logo-col {
+  padding-right: 3rem;
+  padding-left: unset;
+}
+.footer-contact-social {
+  padding-left: 3rem;
+  padding-right: unset;
+}
+.founder-image-margin {
+  margin: 45px 45px 0 0;
+}
+#founder-col {
+  border-right: 1px solid #fefefe;
+  border-left: unset;
+}
+.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  padding-right: 0;
+  padding-left: unset;
+  margin-left: auto;
+  margin-right: unset;
+  margin-right: auto;
+  margin-left: unset;
+}
+.nav-menu.bottom-nav-menu li a::after {
+  right: 15px;
+  left: auto;
+}
+.mobile-menu-toggle {
+  right: 20px;
+  left: auto;
+}
+.mobile-nav-overlay {
+  right: 0;
+  left: auto;
+}
+.mobile-contact-link svg {
+  margin-left: 10px;
+  margin-right: unset;
+}
+.mobile-header-book-btn {
+  left: 11px;
+  right: auto;
+}
+.about-section p {
+  margin-left: 1.5rem;
+  margin-right: unset;
+}
+.homepage-footer .footer-nav .footer-menu li a::after {
+  right: 15px;
+  left: auto;
+}
+.title-inner {
+  padding-left: 0;
+  padding-right: unset;
+}
+.title-inner h2 {
+  text-align: right;
+}
+.title-inner p {
+  text-align: right;
+}
+.swiper-slide {
+  margin-left: 20px;
+  margin-right: unset;
+}
+.portfolio-swiper .swiper-slide {
+  margin-left: 10px;
+  margin-right: unset;
+}
+.services-slide .card-img .card-inner {
+  padding-right: 20px;
+  padding-left: unset;
+  padding-left: 20px;
+  padding-right: unset;
+}
+.services-slide .card-img .card-text {
+  right: 0 !important;
+  left: auto !important;
+  left: 0 !important;
+  right: auto !important;
+}
+.card-content-wrapper {
+  right: 0;
+  left: auto;
+  left: 0;
+  right: auto;
+}
+.card-tag {
+  right: 16px;
+  left: auto;
+}
+.card-time {
+  right: 16px;
+  left: auto;
+}
+.card-price span {
+  margin-right: 5px;
+  margin-left: unset;
+}
+.benefits-list {
+  padding-right: 3rem;
+  padding-left: unset;
+}
+.benefits-list li {
+  padding-right: 15px;
+  padding-left: unset;
+}
+.benefits-list li::before {
+  right: 0;
+  left: auto;
+}
+.service-details {
+  text-align: right !important;
+}
+.service-duration {
+  text-align: right !important;
+}
+.service-price {
+  text-align: right !important;
+}
+.error-404-overlay {
+  right: 0;
+  left: auto;
+  left: 0;
+  right: auto;
+}
+.error-subtitle {
+  margin-right: auto;
+  margin-left: unset;
+  margin-left: auto;
+  margin-right: unset;
+}
+.error-search-form {
+  margin-right: auto;
+  margin-left: unset;
+  margin-left: auto;
+  margin-right: unset;
+}
+.quick-nav-list li a:before {
+  margin-left: 8px;
+  margin-right: unset;
+}
+.quick-nav-list li a:hover {
+  padding-right: 10px;
+  padding-left: unset;
+}
+.faq-question {
+  text-align: right;
+}
+.faq-question .faq-question-title {
+  padding-left: 2rem;
+  padding-right: unset;
+}
+.stylist {
+  left: 30%;
+  right: auto;
+}
+.stylist::before {
+  right: 10px;
+  left: auto;
+}
+.stylist::after {
+  right: 15px;
+  left: auto;
+}
+.client {
+  right: 25%;
+  left: auto;
+}
+.client::before {
+  right: 7.5px;
+  left: auto;
+}
+.client::after {
+  right: 10px;
+  left: auto;
+}
+.mirror {
+  right: 10%;
+  left: auto;
+}
+.mirror::before {
+  right: 5px;
+  left: auto;
+}
+.chair {
+  right: 20%;
+  left: auto;
+}
+.chair::before {
+  right: 5px;
+  left: auto;
+}
+.stylena-image-slider::before {
+  right: 0;
+  left: auto;
+}
+.slide-image {
+  right: 0;
+  left: auto;
+}
+.slide-overlay {
+  right: 0;
+  left: auto;
+}
+.contact-subtitle {
+  margin-right: auto;
+  margin-left: unset;
+  margin-left: auto;
+  margin-right: unset;
+}
+.contact-info {
+  padding-right: 2rem;
+  padding-left: unset;
+}
+.contact-icon {
+  margin-left: 1rem;
+  margin-right: unset;
+}
+.portfolio-grid-item .card-img {
+  right: 0;
+  left: auto;
+}
+.portfolio-grid-item .card-img::after {
+  right: 0;
+  left: auto;
+}
+.portfolio-grid-item .card-inner {
+  right: 0;
+  left: auto;
+  left: 0;
+  right: auto;
+}
+#load-more-portfolio.loading::after {
+  right: 50%;
+  left: auto;
+  margin: -10px -10px 0 0;
+}
+.no-portfolio-content p {
+  margin-right: auto;
+  margin-left: unset;
+  margin-left: auto;
+  margin-right: unset;
+}
+.search-page-header::before {
+  right: 0;
+  left: auto;
+  left: 0;
+  right: auto;
+}
+.membership-modal-overlay {
+  right: 0;
+  left: auto;
+}
+.membership-modal-header::before {
+  right: 0;
+  left: auto;
+  left: 0;
+  right: auto;
+}
+.service-category-badge {
+  margin-left: 8px;
+  margin-right: unset;
+}
+.service-detail-benefits li i {
+  margin-left: 10px;
+  margin-right: unset;
+}
+.bypostauthor {
+  border-right: 3px solid #bc9c25;
+  border-left: unset;
+}
+
+
+/* responsive.css */
+@media (max-width: 1024px) {
+  body:not(.homepage) .homepage-footer .container-fluid {
+    padding-right: 20px;
+    padding-left: unset;
+    padding-left: 20px;
+    padding-right: unset;
+  }
+}
+@media (max-width: 575px) {
+  .review-slide {
+    margin-left: 1rem;
+    margin-right: unset;
+  }
+}
+@media (max-width: 1199px) and (min-width: 769px) {
+  .review-slide {
+    margin-left: 1.5rem;
+    margin-right: unset;
+  }
+}
+@media (max-width: 1024px) {
+  .review-slide:not(:first-child) .review-card {
+    border-right: none;
+    border-left: unset;
+  }
+  .review-card {
+    border-right: none;
+    border-left: unset;
+  }
+  .review-slide {
+    margin-left: 2rem;
+    margin-right: unset;
+  }
+}
+@media (max-width: 1023.98px) {
+  .footer-nav-col {
+    padding-right: 1rem !important;
+    padding-left: unset !important;
+  }
+}
+@media (max-width: 1023.98px) {
+  .footer-location-col {
+    padding-right: 0 !important;
+    padding-left: unset !important;
+  }
+}
+@media (max-width: 1023.98px) {
+  .footer-logo-col {
+    padding-right: 1rem !important;
+    padding-left: unset !important;
+  }
+}
+@media (max-width: 1023.98px) {
+  .footer-contact-social {
+    padding-left: 0 !important;
+    padding-right: unset !important;
+  }
+}
+@media (max-width: 991.98px) {
+  #founder-col {
+    border-right: none;
+    border-left: unset;
+  }
+}
+@media (max-width: 576px) {
+  .mobile-menu-toggle {
+    left: 20px;
+    right: auto;
+  }
+  .bottom-nav-menu.show {
+    right: 0;
+    left: auto;
+    left: 0;
+    right: auto;
+  }
+}
+@media (min-width: 1024px) {
+  .service-row .service-content-col.order-md-1 {
+    text-align: left;
+  }
+  .service-row .service-content-col.order-md-1 h3 {
+    text-align: left;
+  }
+  .service-row .service-content-col.order-md-1 .service-desc {
+    text-align: left;
+  }
+  .service-row .service-content-col.order-md-1 .service-details {
+    text-align: left !important;
+  }
+  .service-row .service-content-col.order-md-1 .service-duration,   .service-row .service-content-col.order-md-1 .service-price {
+    text-align: left !important;
+  }
+  .service-row .service-content-col.order-md-1 .mt-4 {
+    text-align: left;
+  }
+}
+@media (max-width: 991.98px) {
+  .title-inner {
+    padding-left: 0;
+    padding-right: unset;
+  }
+}
+@media (max-width: 1023.98px) {
+  .swiper-slide {
+    margin-left: 20px;
+    margin-right: unset;
+  }
+  .swiper-button-prev {
+    margin-left: auto;
+    margin-right: unset;
+  }
+  .swiper-button-next {
+    margin-right: auto;
+    margin-left: unset;
+  }
+}
+@media (max-width: 575.98px) {
+  .swiper-slide {
+    margin-left: 15px;
+    margin-right: unset;
+  }
+}
+@media (max-width: 1023.98px) {
+  .error-404-hero {
+    padding-right: 15px;
+    padding-left: unset;
+    padding-left: 15px;
+    padding-right: unset;
+  }
+}
+@media (max-width: 1023.98px) {
+  .faq-question .faq-question-title {
+    padding-left: 1rem;
+    padding-right: unset;
+  }
+  .container-fluid {
+    padding-right: 1rem;
+    padding-left: unset;
+    padding-left: 1rem;
+    padding-right: unset;
+  }
+}
+@media (max-width: 1024px) {
+  .contact-info {
+    padding-right: 0;
+    padding-left: unset;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .mobile-header-book-btn {
+    left: 11px;
+    right: auto;
+  }
+}
+@media (min-width: 577px) and (max-width: 767.98px) {
+  .mobile-header-book-btn {
+    left: 11px;
+    right: auto;
+  }
+}
+@media (max-width: 576px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 912px) and (max-width: 1023.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 834px) and (max-width: 911.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 820px) and (max-width: 833.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 800px) and (max-width: 819.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 799.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 480px) and (max-width: 767.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 430px) and (max-width: 479px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 414px) and (max-width: 429.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 410px) and (max-width: 413.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 390px) and (max-width: 409.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (min-width: 361px) and (max-width: 389.98px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (max-width: 360px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .mobile-menu-toggle {
+    right: 10px;
+    left: auto;
+  }
+  .hero-content {
+    padding-right: 10px;
+    padding-left: unset;
+    padding-left: 10px;
+    padding-right: unset;
+  }
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+}
+@media (max-width: 320px) {
+  .swiper-slide.services-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .swiper-slide.portfolio-slide.card {
+    margin-left: 10px !important;
+    margin-right: unset !important;
+  }
+  .services-slide .card-text {
+    right: 15px !important;
+    left: auto !important;
+    left: 15px !important;
+    right: auto !important;
+  }
+}
+
+
+/* Portfolio lightbox: mirror control sides */
+.stylena-lb__close {
+  right: auto;
+  left: 1rem;
+}
+.stylena-lb__prev {
+  left: auto;
+  right: 0.75rem;
+}
+.stylena-lb__next {
+  right: auto;
+  left: 0.75rem;
+}
